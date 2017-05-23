@@ -1,0 +1,67 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:100px) {
+    .navbar {
+        padding: 10px 0; /* tamaño cuando está arriba y lo de abajo es para que se acorte*/
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+        background: #fff;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+        background: #fff;
+    }
+}
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+of those sections to manage the look and feel of the site. */
+
+.a1 {
+    height: 100%;
+    padding-top: 200px;
+    text-align: center;
+    background: #ccffff;
+    color: #003333;
+    font-family: Monserrat, sans-serif;
+}
+
+.a2 {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #ff9999;
+    color: #660000;
+}
+
+.a3 {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background:  #ffffcc;
+    color:  #cc6900;
+}
+
+.a4 {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background:  #adebad;
+    color:   #0f3e0f;
+}
